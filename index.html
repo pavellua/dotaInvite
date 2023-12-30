@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesSmall.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="backgroundImg">
+            
+    </div>
+    <div id="main">
+        
+        <div id="loginDiv">
+            <h2 class="textHead">Введіть свій ID та пароль:</h2>
+           
+            <div id="loginInput" class="input-container">
+                <input type="text" data-item ="1" maxlength="1"   />
+                <input type="text" data-item ="2" maxlength="1"   />
+                <input type="text" data-item ="3" maxlength="1"   />
+                <input type="text" data-item ="4" maxlength="1"   />
+                <input type="text" data-item ="5" maxlength="1"   />
+                <input type="text" data-item ="6" maxlength="1"   />
+              </div>
+              <div id="passwordInput" class="input-container">
+                <input type="text" data-item ="1" maxlength="1"   />
+                <input type="text" data-item ="2" maxlength="1"   />
+                <input type="text" data-item ="3" maxlength="1"   />
+                <input type="text" data-item ="4" maxlength="1"   />
+                <input type="text" data-item ="5" maxlength="1"   />
+                <input type="text" data-item ="6" maxlength="1"   />
+              </div>
+              <p id="errorMassage">Не правильний логін або пароль</p>
+        <button disabled>Вхід</button>
+       
+        
+        </div>
+        <h2 id="timerText">Доступ відкриється через:</h2>
+        <div id="timer">
+            
+            <div class="mainCell" id="timerDays">
+                <div class="timerCell">
+                    <div class="timerCells"></div>
+                    <div class="timerCells"></div>
+                </div>
+                <span style="text-align: center; width: max-content;">Днів</span>
+            </div>
+            <div class="mainCell" id="timerHours">
+                <div  class="timerCell">
+                    <div class="timerCells"></div>
+                    <div class="timerCells"></div>
+                </div>
+                <span style="text-align: center; width: max-content;">Годин</span>
+            </div>
+            <div class="mainCell" id="timerMinutes">
+                <div class="timerCell">
+                    <div class="timerCells"></div>
+                    <div class="timerCells"></div>
+                </div>
+                <span style="text-align: center; width: max-content;">Хвилин</span>
+            </div>
+            <div class="mainCell"  id="timerSeconds">
+                <div class="timerCell">
+                    <div class="timerCells"></div>
+                    <div class="timerCells"></div>
+                </div>
+                <span style="margin: 0 auto; width: max-content;">Секунд</span>
+            </div>
+        </div>
+    </div>
+    
+    
+        <img id="loadingImg" src="img/kyiv-from-above-motherland-statue-4096x2729.jpeg" alt="">
+       
+    <script type="module" src="index.js" defer></script>
+</body>
+</html>

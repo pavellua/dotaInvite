@@ -1,0 +1,482 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/background.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#acceptMenu {
+    margin-bottom: 20px;
+    width: 650px;
+    height: 215px;
+    transition: 1s linear;
+    opacity: 0;
+    background-image: url(img/dotaBack.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#analiticMenu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#analiticMenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* #background {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 850px;
+    height: 100vh;
+
+
+    z-index: -5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#determinedPlayers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #c4c4c4;
+}
+
+#determinedPlayers div {
+    margin-top: 4px;
+    border-radius: 5px;
+
+
+}
+
+#determinedPlayers ul {
+    transition: 1s;
+    padding: 15px;
+
+}
+
+#determinedPlayers li {
+    margin: 5px 0;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+.highlightedText {
+    color: #ffa600;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.informText {
+    font-size: 18px;
+}
+
+.informText {
+    text-indent: 4%;
+    line-height: 1.9;
+}
+
+#invitationH3 {
+    border-bottom: 1px solid #ffa600;
+
+    width: 65%;
+    text-align: center;
+    padding-bottom: 6px;
+    margin: 0 auto;
+    color: #ffa600;
+    font-size: 24px;
+}
+
+#main {
+
+    margin: 0 auto;
+    width: 670px;
+    height: 100vh;
+    color: #b9b9b9;
+    font-family: 'Philosopher', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(145, 145, 145, 0.25);
+
+
+}
+
+#mainInfo {
+    opacity: 0;
+    width: 650px;
+    transition: 1s linear;
+    opacity: 0;
+    position: relative;
+
+    z-index: -2;
+}
+
+#mainInfo img {
+    width: 100%;
+}
+
+#massage {
+    width: 650px;
+
+}
+
+
+#memory {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    display: block;
+    cursor: pointer;
+    background-color: #447963;
+    /* Зеленый фон */
+
+    background-size: 20px 20px;
+    /* Размер клетки градиента */
+    background-position: 0 0;
+    /* Начальная позиция градиента */
+    background-size: 20px 20px;
+    /* Размер клетки градиента */
+
+    padding: 10px;
+
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 31px auto;
+    color: #fff;
+    box-shadow: 0 0 10px 10px rgba(0, 175, 73, 0.5);
+    /* Тень */
+}
+
+
+#notReadyPlay {
+    box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.5);
+    /* Тень */
+    background-color: #b82b4b;
+
+}
+
+#notReadyPlayers {
+    background-color: rgba(255, 0, 0, 0.25);
+
+
+}
+
+#playerList {
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+#playerList li {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#playerListDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+#program {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+#program a {
+    width: 190px;
+    border: 1px solid rgba(128, 0, 128, 0.9);
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0 5px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+#program img {
+    height: 100px;
+    width: 100px;
+    margin: 15px 0;
+}
+
+#program span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    color: rgba(129, 255, 213, 0.9);
+    font-size: 16px;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#programDetail {
+    padding: 0 13px 0 13px;
+    margin-bottom: 50px;
+}
+
+#programDetail a {
+    color: rgb(0, 148, 0);
+    text-decoration: underline;
+}
+
+.programDetails {
+    border-bottom: 1px solid rgba(255, 230, 0, 0.5);
+    padding: 35px 0;
+}
+
+#programDetail p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#programDetail h3 {
+    color: #ffa600;
+    margin: 0;
+    font-size: 20px;
+}
+
+.readyBtns {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+#readyPlay {
+    box-shadow: 0 0 10px 10px rgba(0, 255, 106, 0.5);
+    /* Тень */
+    background-color: #2c7930;
+    width: 100%;
+}
+
+#readyPlayers {
+    background-color: rgba(0, 255, 0, 0.25);
+}
+
+#rules li {
+    margin-top: 10px;
+}
+
+#rules ul {
+    color: red;
+    font-weight: bolder;
+    margin: 15px 0 0 15px;
+}
+
+.slowMove {
+    position: absolute;
+    transition: 3s linear;
+}
+
+
+.slowOpacity::after {
+    content: ' |';
+    color: rgb(251, 255, 0);
+    position: absolute;
+
+    animation: blink 1s infinite;
+
+    font-weight: bolder;
+}
+
+.mainCell {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+#timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% auto;
+    width: 50%;
+
+
+}
+
+.timerCell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 7px;
+    font-size: 24px;
+
+
+}
+
+.timerCells {
+    width: 25px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1px;
+}
+
+#topSide {
+    width: 100%;
+    height: 77px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topSide h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+#topSide h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#video {
+    width: 650px;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s linear;
+    position: absolute;
+    z-index: -2;
+}
+
+#video video {
+    width: 100%;
+}
+
+#whatNeedDo h3 {
+    margin-top: 30px;
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(228, 175, 0)
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        overflow-wrap: break-word;
+        font-size: 16px;
+    }
+
+    #main {
+        width: 90%;
+        padding: 2% 5%;
+    }
+
+    #massage,
+    #acceptMenu,
+    #video,
+    #mainInfo {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    #program a {
+        width: 30%;
+
+    }
+
+    #program img {
+        height: 60%;
+        width: 60%;
+        margin: 8px 0;
+    }
+
+    #program span {
+
+        height: 50px;
+
+        font-size: 10px;
+
+    }
+    #determinedPlayers {
+        font-size: 14px;
+    }
+    #timer {
+        width: inherit;
+    }
+}
+
+
+
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

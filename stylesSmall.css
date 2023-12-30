@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    body {
+
+
+        background-position: center -23%;
+        background-size: 300%;
+      
+    }
+
+    #backgroundImg {
+
+        background-color: rgba(0, 0, 0, 0.7);
+        /* полупрозрачный чёрный цвет */
+    }
+
+    #errorMassage {
+
+        font-size: 22px;
+
+    }
+    .input-container input {
+       
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+      
+
+    }
+    #loadingImg {
+     
+        position: absolute;
+
+        pointer-events: none;
+       
+        
+        top:50%;
+        left: 50%;
+        transform: translate(-58%, -50%);
+    }
+    #main {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textHead {
+        font-size: 24px;
+    }
+
+
+
+}
+
+@media (max-width: 1450px) {
+    #loadingImg {
+  width: inherit;
+height: 100vh;
+    }
+}
