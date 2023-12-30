@@ -1,4 +1,4 @@
-import { playersInfo } from "/index.js";
+import { playersInfo } from "./index.js";
 
 
 async function CheckInputsData(inputData) {
